@@ -3,7 +3,6 @@
   yum: 
     name: "{{ item }}"
     state: present
-    sudo:yes
   with_items:
    - unzip
    - java-1.7.0-openjdk
