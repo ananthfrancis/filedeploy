@@ -8,6 +8,7 @@
    - java-1.7.0-openjdk
    - libselinux-python
    - libsemanage-python
+  sudo:yes
 
 - name: Download JBoss from jboss.org
   get_url: 
